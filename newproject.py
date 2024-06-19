@@ -10,9 +10,8 @@ Original file is located at
 import pandas as pd
 
 # Load the dataset
-file_path = '/content/drive/MyDrive/Colab Notebooks/Project/HR_comma_sep.csv'
+file_path = "C:/Users/Jamil Shaikh/Downloads/HR_comma_sep.csv"
 data = pd.read_csv(file_path)
-
 # Correct the column names
 data.rename(columns={
     'average_montly_hours': 'average_monthly_hours',
