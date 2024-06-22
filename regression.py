@@ -179,11 +179,11 @@ def train_model(X, y, model_filename):
         'Mean Absolute Percentage Error': mape
     }
 
-    print(f"Evaluation Results for {model_filename}:", evaluation_results)
+    print(f"Evaluation Results for {model_2.pkl}:", evaluation_results)
 
     # Save the best model
-    joblib.dump(best_model, model_filename)
-    print(f"Model saved to {model_filename}")
+    joblib.dump(best_model, model_2.pkl)
+    print(f"Model saved to {model_2.pkl}")
 
     # Feature importance
     importances = best_model.named_steps['regressor'].feature_importances_
