@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load the model
-model_2 = load(train_model(X2, y, 'model_2.pkl'))
+model_2 = load('model_2.pkl')
 
 # Define a function to predict employee satisfaction
 def predict_satisfaction(model, data):
