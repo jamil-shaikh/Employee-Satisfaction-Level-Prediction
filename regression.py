@@ -179,7 +179,7 @@ def train_model(X, y, model_filename):
         'Mean Absolute Percentage Error': mape
     }
 
-    print(f"Evaluation Results for {model_filename.}:", evaluation_results)
+    print(f"Evaluation Results for {model_filename}:", evaluation_results)
 
     # Save the best model
     joblib.dump(best_model, model_filename)
