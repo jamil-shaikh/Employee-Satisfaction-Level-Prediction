@@ -4,6 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
+
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module='sklearn.base')
+
 # Load the model
 model_2 = load('model_2.pkl')
 
