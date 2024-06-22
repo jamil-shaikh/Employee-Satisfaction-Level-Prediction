@@ -14,7 +14,7 @@ Data Loading: Load the dataset using pandas.
 Data Preprocessing: Correct column names, define features and target, and handle categorical and numerical columns.
 Feature Engineering: Create new features to enhance model performance.
 Data Visualization: Visualize numerical and categorical features using seaborn and matplotlib.
-Model Training: Train a machine learning model using a pipeline with preprocessing and a decision tree regressor.
+Model Training: Train a machine learning model using a pipeline with preprocessing and a Random Forest regressor.
 Model Optimization: Optimize the model using Grid Search CV.
 Model Saving: Save the best model using joblib.
 
@@ -22,7 +22,7 @@ Model Saving: Save the best model using joblib.
 The modeling process includes:
 
 Defining a preprocessing pipeline for numerical and categorical features.
-Using a decision tree regressor for the prediction task.
+Using a Random Forest regressor for the prediction task.
 Optimizing the model hyperparameters using Grid Search CV.
 
 **Evaluation**
