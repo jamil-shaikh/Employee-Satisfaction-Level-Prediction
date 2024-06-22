@@ -14,6 +14,6 @@ def predict_satisfaction(data):
 # Example usage
 if __name__ == "__main__":
     # Load new data to make predictions
-    new_data = pd.read_csv('path_to_new_data.csv')
+    new_data = pd.read_csv('HR_comma_sep.csv')
     satisfaction_predictions = predict_satisfaction(new_data)
     print(satisfaction_predictions)
