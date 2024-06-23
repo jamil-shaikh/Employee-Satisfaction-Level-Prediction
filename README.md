@@ -21,9 +21,12 @@ Add more metrics for model evaluation, such as MAE (Mean Absolute Error) or othe
 #### Results
 Include specific results from the model evaluation, such as MSE and R² values, and discuss the significance of these results.
 
-### Suggested Revised README
 
 ```markdown
+# Employee Satisfaction Level Prediction
+
+This project aims to predict employee satisfaction levels based on various features using machine learning techniques. Predicting employee satisfaction can help organizations improve workplace conditions and reduce turnover rates.
+
 # Employee Satisfaction Level Prediction
 
 This project aims to predict employee satisfaction levels based on various features using machine learning techniques. Predicting employee satisfaction can help organizations improve workplace conditions and reduce turnover rates.
@@ -64,7 +67,7 @@ To install the required dependencies, run:
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
-```
+
 
 ## Usage
 
