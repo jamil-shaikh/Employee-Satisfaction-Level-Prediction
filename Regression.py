@@ -30,8 +30,6 @@ X['average_monthly_hours_per_year'] = X['average_monthly_hours'] * 12
 numerical_cols.append('average_monthly_hours_per_year')
 
 
-# In[4]:
-
 
 import seaborn as sns
 import matplotlib.pyplot as plt
