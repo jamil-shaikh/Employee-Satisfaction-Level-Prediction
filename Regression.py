@@ -7,7 +7,7 @@
 import pandas as pd
 
 # Load the dataset
-file_path = 'C:/Users/Jamil Shaikh/Desktop/HR_comma_sep.csv'
+file_path = 'HR_comma_sep.csv'
 data = pd.read_csv(file_path)
 
 # Correct the column names
@@ -243,7 +243,7 @@ def calculate_metrics(actual, predicted, n_features):
 # Example usage
 if __name__ == "__main__":
     # Load new data to make predictions
-    new_data = pd.read_csv("C:/Users/Jamil Shaikh/Desktop/HR_comma_sep.csv")
+    new_data = pd.read_csv("HR_comma_sep.csv")
 
     # Assuming 'satisfaction_level' is the actual satisfaction score in the dataset
     if 'satisfaction_level' in new_data.columns:
@@ -356,7 +356,7 @@ def calculate_metrics(actual, predicted, n_features):
 # Example usage
 if __name__ == "__main__":
     # Load new data to make predictions
-    new_data = pd.read_csv('C:/Users/Jamil Shaikh/Desktop/HR_comma_sep.csv')
+    new_data = pd.read_csv('HR_comma_sep.csv')
 
     # Assuming 'satisfaction_level' is the actual satisfaction score in the dataset
     if 'satisfaction_level' in new_data.columns:
