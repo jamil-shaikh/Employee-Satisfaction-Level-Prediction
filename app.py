@@ -25,7 +25,7 @@ def calculate_metrics(actual, predicted, n_features):
     r2 = r2_score(actual, predicted)
     n = len(actual)
     mape = np.mean(np.abs((actual - predicted) / actual)) * 100
-    return mse, rmse, mae, r2, adjusted_r2, mape
+    return mse, rmse, mae, r2, mape
 
 # Streamlit app
 st.title('Employee Satisfaction Prediction')
