@@ -42,8 +42,39 @@ To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
 
+## Usage
+
+Run the main script for training the models and making predictions:
+python Regression.py
 
 
+To run the Streamlit app:
+streamlit run app.py
+
+## Modeling
+
+The modeling process includes:
+
+    Defining a preprocessing pipeline for numerical and categorical features.
+    Using a Random Forest regressor for the prediction task.
+    Optimizing the model hyperparameters using Grid Search CV.
+
+## Evaluation
+
+The model is evaluated using:
+
+    Mean Squared Error (MSE)
+    R-squared (R²)
+Need to add more
+
+## Results
+
+The optimized model's performance is evaluated, and the feature importance is visualized to understand the significant predictors of employee satisfaction.
+
+## Deployment
+
+The model is deployed using Streamlit. To access the web app, run:
+streamlit run app.py
 
 
 
