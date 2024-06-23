@@ -164,7 +164,6 @@ def train_model(X, y, model_filename):
     rmse = mean_squared_error(y_test, y_pred, squared=False)  # Calculate RMSE by setting squared=False
     mae = mean_absolute_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
-    adjusted_r2 = 1 - (1 - r2) * (len(y_test) - 1) / (len(y_test) - X_test.shape[1] - 1)
     mape = np.mean(np.abs((y_test - y_pred) / y_test)) * 100  # Calculate MAPE
 
     # Display the evaluation metrics
@@ -173,7 +172,6 @@ def train_model(X, y, model_filename):
         'Root Mean Squared Error': rmse,
         'Mean Absolute Error': mae,
         'R-squared': r2,
-        'Adjusted R-squared': adjusted_r2,
         'Mean Absolute Percentage Error': mape
     }
 
@@ -232,10 +230,8 @@ def calculate_metrics(actual, predicted, n_features):
     rmse = np.sqrt(mse)
     mae = mean_absolute_error(actual, predicted)
     r2 = r2_score(actual, predicted)
-    n = len(actual)
-    adjusted_r2 = 1 - (1 - r2) * (n - 1) / (n - n_features - 1)
     mape = np.mean(np.abs((actual - predicted) / actual)) * 100
-    return mse, rmse, mae, r2, adjusted_r2, mape
+    return mse, rmse, mae, r2, mape
 
 # Example usage
 if __name__ == "__main__":
@@ -272,7 +268,6 @@ if __name__ == "__main__":
             'Root Mean Squared Error': metrics_1[1],
             'Mean Absolute Error': metrics_1[2],
             'R-squared': metrics_1[3],
-            'Adjusted R-squared': metrics_1[4],
             'Mean Absolute Percentage Error': metrics_1[5]
         }
 
@@ -281,8 +276,7 @@ if __name__ == "__main__":
             'Root Mean Squared Error': metrics_2[1],
             'Mean Absolute Error': metrics_2[2],
             'R-squared': metrics_2[3],
-            'Adjusted R-squared': metrics_2[4],
-            'Mean Absolute Percentage Error': metrics_2[5]
+            'Mean Absolute Percentage Error': metrics_2[4]
         }
 
         print("\nEvaluation Metrics for Model 1:")
@@ -345,10 +339,8 @@ def calculate_metrics(actual, predicted, n_features):
     rmse = np.sqrt(mse)
     mae = mean_absolute_error(actual, predicted)
     r2 = r2_score(actual, predicted)
-    n = len(actual)
-    adjusted_r2 = 1 - (1 - r2) * (n - 1) / (n - n_features - 1)
     mape = np.mean(np.abs((actual - predicted) / actual)) * 100
-    return mse, rmse, mae, r2, adjusted_r2, mape
+    return mse, rmse, mae, r2, mape
 
 # Example usage
 if __name__ == "__main__":
@@ -380,8 +372,7 @@ if __name__ == "__main__":
             'Root Mean Squared Error': metrics_2[1],
             'Mean Absolute Error': metrics_2[2],
             'R-squared': metrics_2[3],
-            'Adjusted R-squared': metrics_2[4],
-            'Mean Absolute Percentage Error': metrics_2[5]
+            'Mean Absolute Percentage Error': metrics_2[4]
         }
 
         print("\nEvaluation Metrics for Model 2:")
