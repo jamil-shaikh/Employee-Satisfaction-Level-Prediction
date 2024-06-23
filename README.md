@@ -1,7 +1,3 @@
-The README content is well-structured and informative. Here are some suggested changes for improvement:
-
-### Changes and Enhancements
-
 #### Overview
 Include a brief introduction to the purpose and significance of predicting employee satisfaction.
 
