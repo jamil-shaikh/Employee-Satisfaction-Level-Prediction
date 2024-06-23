@@ -75,10 +75,3 @@ The optimized model's performance is evaluated, and the feature importance is vi
 
 The model is deployed using Streamlit. To access the web app, run:
 streamlit run app.py
-
-
-
-
-
-
-
