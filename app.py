@@ -56,7 +56,7 @@ if uploaded_file is not None:
         metrics_2 = calculate_metrics(actual_satisfaction, satisfaction_predictions_2, n_features)
 
         evaluation_results_2 = {
-            'Mean Squared Error': metrics_2[0], 'Root Mean Squared Error': metrics_2[1], 'Mean Absolute Error': metrics_2[2], 'R-squared': metrics_2[3],'Mean Absolute Percentage Error': metrics_2[5] }
+            'Mean Squared Error': metrics_2[0], 'Root Mean Squared Error': metrics_2[1], 'Mean Absolute Error': metrics_2[2], 'R-squared': metrics_2[3],'Mean Absolute Percentage Error': metrics_2[4] }
 
         st.write("\nEvaluation Metrics for Model 2:")
         for key, value in evaluation_results_2.items():
