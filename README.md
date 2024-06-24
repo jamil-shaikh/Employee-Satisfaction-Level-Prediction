@@ -83,6 +83,8 @@ The feature importance is visualized to understand the significant predictors of
 
 The model is deployed using Streamlit. To access the web app, run:
 ```bash
-streamlit run app.py```
+streamlit run app.py
+```
+## Link to access the web app:
+[here](https://employee-satisfaction-level-prediction-gu9rrhjoijitkx3zjduadf.streamlit.app/)
 
-https://employee-satisfaction-level-prediction-gu9rrhjoijitkx3zjduadf.streamlit.app/
