@@ -85,4 +85,4 @@ The model is deployed using Streamlit. To access the web app, run:
 ```bash
 streamlit run app.py```
 
-(https://employee-satisfaction-level-prediction-gu9rrhjoijitkx3zjduadf.streamlit.app/)
+https://employee-satisfaction-level-prediction-gu9rrhjoijitkx3zjduadf.streamlit.app/
