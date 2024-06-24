@@ -14,7 +14,7 @@ This project aims to predict employee satisfaction levels based on various featu
 - [Deployment](#deployment)
 - [Link](#link)
 - [Note](#note)
-- 
+  
 ## Overview
 Input: Employee details (last evaluation score, number of projects, average monthly hours, time spent in the company, left, average hours per project, high_satisfaction).
 
