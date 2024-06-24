@@ -21,7 +21,7 @@ Output: Predicted satisfaction level.
 Web App: Accessible via a basic Streamlit interface.
 
 ## Dataset
-The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here][(https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv).
+The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here](https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv).
 
 ## Features
 - **Data Loading:** Load the dataset using pandas.
@@ -38,21 +38,19 @@ To install the required dependencies, run:
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
-
-
-
-Usage
+```
+## Usage
 
 Run the main script for training the models and making predictions:
 ```bash
 python main.py
-
+```
 
 To run the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
-
 ## Modeling
 
 The modeling process includes:
