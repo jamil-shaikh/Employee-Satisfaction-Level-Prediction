@@ -65,7 +65,10 @@ The modeling process includes:
 The model is evaluated using:
 - Mean Squared Error (MSE)
 - R-squared (R²)
-- Mean Absolute Error (MAE)
+- Mean Absolute Error
+- Root Mean Error
+- Mean Absolute Percentage Error
+
 
 ## Results
 
