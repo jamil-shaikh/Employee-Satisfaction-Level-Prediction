@@ -73,9 +73,17 @@ The model is evaluated using:
 ## Results
 
 The optimized model's performance is evaluated:
-- **MSE:** Value
-- **R²:** Value
-- **MAE:** Value
+- **MSE:**
+- **Mean Squared Error:** 0.030201456783105405
+
+- **Root Mean Squared Error:** 0.17378566334167328
+
+- **Mean Absolute Error:** 0.12811430347824132
+
+- **R-squared:** 0.5114066931875252
+
+- **Mean Absolute Percentage Error:** 30.27027507236356
+
 
 The feature importance is visualized to understand the significant predictors of employee satisfaction.
 
