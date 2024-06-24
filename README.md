@@ -21,7 +21,7 @@ Output: Predicted satisfaction level.
 Web App: Accessible via a basic Streamlit interface.
 
 ## Dataset
-The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here][(https://github.com/jamil-shaikh/Employee-Satisfaction-Level-Prediction/blob/9051318502241627eeb92abd5f1eb0bb15e3f3e1/HR_comma_sep.csv)](https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv).
+The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here][(https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv).
 
 ## Features
 - **Data Loading:** Load the dataset using pandas.
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 
 
-## Usage
+Usage
 
 Run the main script for training the models and making predictions:
 ```bash
