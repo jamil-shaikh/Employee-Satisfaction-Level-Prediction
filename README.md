@@ -1,32 +1,3 @@
-#### Overview
-Include a brief introduction to the purpose and significance of predicting employee satisfaction.
-
-#### Dataset
-Specify the source of the dataset and provide a link if publicly available.
-
-#### Features
-Detail the specific techniques used in data preprocessing and feature engineering.
-
-#### Installation
-Add a step for setting up a virtual environment before installing dependencies:
-```bash
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-pip install -r requirements.txt
-```
-
-#### Evaluation
-Add more metrics for model evaluation, such as MAE (Mean Absolute Error) or others relevant to the prediction task.
-
-#### Results
-Include specific results from the model evaluation, such as MSE and R² values, and discuss the significance of these results.
-
-
-```markdown
-# Employee Satisfaction Level Prediction
-
-This project aims to predict employee satisfaction levels based on various features using machine learning techniques. Predicting employee satisfaction can help organizations improve workplace conditions and reduce turnover rates.
-
 # Employee Satisfaction Level Prediction
 
 This project aims to predict employee satisfaction levels based on various features using machine learning techniques. Predicting employee satisfaction can help organizations improve workplace conditions and reduce turnover rates.
@@ -67,6 +38,7 @@ To install the required dependencies, run:
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
+
 
 
 ## Usage
