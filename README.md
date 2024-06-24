@@ -21,7 +21,7 @@ Output: Predicted satisfaction level.
 Web App: Accessible via a basic Streamlit interface.
 
 ## Dataset
-The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here](https://github.com/jamil-shaikh/Employee-Satisfaction-Level-Prediction/blob/9051318502241627eeb92abd5f1eb0bb15e3f3e1/HR_comma_sep.csv).
+The dataset used contains features such as employee evaluation scores, project counts, working hours, and more. The dataset can be found [here][(https://github.com/jamil-shaikh/Employee-Satisfaction-Level-Prediction/blob/9051318502241627eeb92abd5f1eb0bb15e3f3e1/HR_comma_sep.csv)](https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv).
 
 ## Features
 - **Data Loading:** Load the dataset using pandas.
@@ -45,8 +45,8 @@ pip install -r requirements.txt
 
 Run the main script for training the models and making predictions:
 ```bash
-python Regression.py
-```
+python main.py
+
 
 To run the Streamlit app:
 ```bash
@@ -73,17 +73,11 @@ The model is evaluated using:
 ## Results
 
 The optimized model's performance is evaluated:
-- **MSE:**
-- **Mean Squared Error:** 0.030201456783105405
-
+- **MSE:** 0.030201456783105405
 - **Root Mean Squared Error:** 0.17378566334167328
-
 - **Mean Absolute Error:** 0.12811430347824132
-
 - **R-squared:** 0.5114066931875252
-
 - **Mean Absolute Percentage Error:** 30.27027507236356
-
 
 The feature importance is visualized to understand the significant predictors of employee satisfaction.
 
