@@ -90,5 +90,5 @@ streamlit run app.py
 [here](https://employee-satisfaction-level-prediction-gu9rrhjoijitkx3zjduadf.streamlit.app/)
 
 ## Note
-Use this csv file [here](https://github.com/jamil-shaikh/Employee-Satisfaction-Level-Prediction/blob/03ba5c2cad01d5c3c22de59b548dc4ee3fa64b71/HR_comma_sep.csv).
+<span style="color: red;">Use this csv file [here](https://github.com/jamil-shaikh/Employee-Satisfaction-Level-Prediction/blob/03ba5c2cad01d5c3c22de59b548dc4ee3fa64b71/HR_comma_sep.csv).
 
